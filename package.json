@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint --fix . --ext .js,.tsx",
     "format": "prettier --write \"src/**/*.{ts,js,tsx,jsx,json,md}\"",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
