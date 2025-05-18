@@ -1,0 +1,10 @@
+dist
+node_modules
+.dockerignore
+.gitignore
+docker-compose.yml
+Dockerfile
+package-lock.json
+package.json
+README.md
+tsconfig.json
