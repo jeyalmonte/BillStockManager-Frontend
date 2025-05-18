@@ -25,6 +25,17 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
+  "paths": {
+    "@/*": [
+      "./src/*"
+    ],
+    "@routes/*": [
+      "./src/routes/*"
+    ],
+    "@features/*": [
+      "./src/features/*"
+    ],
+  },
   "include": [
     "./src"
   ]
