@@ -9,13 +9,13 @@ interface Props {
   headers?: Record<string, string>;
 }
 
-const request = async <T>({
+const request = async ({
   method,
   url,
   params,
   data,
   headers,
-}: Props): Promise<AxiosResponse<T>> => {
+}: Props): Promise<AxiosResponse> => {
   const config: AxiosRequestConfig = {
     method,
     url,

@@ -9,6 +9,9 @@ export default defineConfig({
       "@": "/src",
       "routes": "/src/routes",
       "features": "/src/features",
+      "components": "/src/components",
+      "lib": "/src/lib",
+      "constants": "/src/constants"
     }
   }
 })
